@@ -25,4 +25,5 @@ python scripts/average_checkpoints.py --inputs $SAVE --num-epoch-checkpoints $AV
 
 CUDA_VISIBLE_DEVICES=0 fairseq-generate data-bin/iwslt14.tokenized.de-en \
     --path $SAVE/average_model.pt \
-    --batch-size 128 --beam 5 --remove-bpe
+    --batch-size 128 --beam 5 --remove-bpe \
+    | tee -a $SAVE/result.txt
