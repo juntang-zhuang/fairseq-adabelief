@@ -25,9 +25,11 @@ fairseq-preprocess --source-lang de --target-lang en \
 ```
 ### run with Adam optimizer
 ```sh run_adam.sh```
+Results saved in folder ```adam```
 
 ### run with AdaBelief optimizer
 ```sh run_adabelief.sh```
+Results saved in folder ```adabelief```
 
 ## Results (BLEU score)
 | Adam      | Adabelief |
