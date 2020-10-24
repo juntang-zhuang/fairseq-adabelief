@@ -1,7 +1,14 @@
 # Test Transformer with AdaBelief Optimizer
-This repo is based on ```fairseq``` repository (lates version) https://github.com/pytorch/fairseq
+This repo is based on ```fairseq``` repository (lates version) https://github.com/pytorch/fairseq <br>
+An implementation of AdaBelief optimizer compatible with ```fairseq``` is in ```fairseq/optim```
+
+## Dependencies
+```PyTorch==1.6.0```
 
 ## How to run on IWSLT14 DE-EN
+### Install current package
+```pip install --editable .```
+
 ### Prepare data
 ```
 cd examples/translation/
