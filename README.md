@@ -1,5 +1,5 @@
 # Test Transformer with AdaBelief Optimizer
-This repo is based on ```fairseq``` repository (lates version) https://github.com/pytorch/fairseq <br>
+This repo is based on ```fairseq``` repository (lates version, 1.0.0a0) https://github.com/pytorch/fairseq <br>
 An implementation of AdaBelief optimizer compatible with ```fairseq``` is in ```fairseq/optim```
 
 ## Dependencies
